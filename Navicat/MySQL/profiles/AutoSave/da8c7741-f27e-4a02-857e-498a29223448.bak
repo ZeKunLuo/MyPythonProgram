@@ -1,2 +1,0 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `studentbookinfo`(in studencode varchar(20))
-begin declare temp varchar(20) default null;set temp=studencode; select studentinfo.stucode,stuname,name from studentinfo,brrowbt1,bookinfo where studentinfo.stucode=brrowbt1.stucode and brrowbt1.code=bookinfo.code and brrowbt1.stucode=temp;end
