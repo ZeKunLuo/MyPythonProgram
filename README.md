@@ -1,2 +1,1 @@
 # MyPyhonProgram
-$\dfrac{a}{b}$
